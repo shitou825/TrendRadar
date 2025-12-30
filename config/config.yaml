@@ -163,10 +163,10 @@ notification:
   # 推送渠道配置
   channels:
     feishu:
-      webhook_url: "https://open.feishu.cn/open-apis/bot/v2/hook/d7cef2b0-a4ae-43df-b589-7e165736bee7"                 # 飞书机器人 webhook URL
+      webhook_url: ""                 # 飞书机器人 webhook URL
 
     dingtalk:
-      webhook_url: ""                 # 钉钉机器人 webhook URL
+      webhook_url: "https://oapi.dingtalk.com/robot/send?access_token=7fbcc656105b1c09bdaf87c1c725ef580f2a29075e141d017a07c3f8f1901b8e"                 # 钉钉机器人 webhook URL
 
     wework:
       webhook_url: ""                 # 企业微信机器人 webhook URL
